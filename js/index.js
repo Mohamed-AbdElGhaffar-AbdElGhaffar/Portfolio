@@ -70,7 +70,7 @@ let projects = [
         image: 'imgs/notes.png',
         githPage: 'https://notes-app-one-puce.vercel.app/',
         code: 'https://github.com/Mohamed-AbdElGhaffar-AbdElGhaffar/Notes-App.git',
-        skills: ['React', 'Context', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Fontawesome','JSON & AJAX & AXIOS','Formik','Yup']
+        skills: ['React', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Fontawesome','JSON & AJAX & AXIOS','Formik','Yup']
     },
     {
         name: 'Yummy',
