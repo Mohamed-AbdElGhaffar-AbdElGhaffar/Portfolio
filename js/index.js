@@ -41,7 +41,7 @@ let mySkills = [
     { icon: '<i class="bx bxs-file-json fa-2x ms-2 me-3" ></i>', name: 'JSON & AJAX & AXIOS' },
     { icon: '<i class="fa-brands fa-github fa-2x ms-2 me-3"></i>', name: 'GIT & GITHUB' },
     { icon: '<i class="fa-brands fa-react fa-2x ms-2 me-3"></i>', name: 'REACT JS' },
-    { icon: '<i class="fa-brands fa-react fa-2x ms-2 me-3"></i>', name: 'NEXT JS' }
+    { icon: '<span class="Next fa-2x ms-2 me-3">NE</span>', name: 'NEXT JS' }
 ]
 let box = '';
 for (let i = 0; i < mySkills.length; i++) {

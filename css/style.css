@@ -195,7 +195,15 @@ header .info ul li:nth-child(3) a {
 #skills .item::before {
   height: 5px;
 }
-
+.Next{
+  font-size: 15px;
+  padding: 4px 0 0 5px;
+  border-radius: 3px;
+  background-color: #051E34;
+  color: #fff;
+  margin-top: 2.7px;
+  margin-bottom: 2.7px;
+}
 /* Projects */
 #projects {
   padding: 5rem 0 2rem;
