@@ -31,16 +31,16 @@ icons.addEventListener('click', function (e) {
 
 // Skills
 let mySkills = [
-    { icon: '<i class="fa-brands fa-html5 fa-2x ms-2 me-3"></i>', name: 'HTML' },
-    { icon: '<i class="fa-brands fa-css3-alt fa-2x ms-2 me-3"></i>', name: 'CSS' },
-    { icon: '<i class="fa-brands fa-js fa-2x ms-2 me-3"></i>', name: 'JAVASCRIPT' },
-    { icon: '<i class="fa-brands fa-bootstrap fa-2x ms-2 me-3"></i>', name: 'BOOTSTRAP' },
-    { icon: '<i class="bx bxl-jquery fa-2x ms-2 me-3"></i>', name: 'JQUERY' },
-    { icon: '<i class="fa-brands fa-sass fa-2x ms-2 me-3"></i>', name: 'SASS' },
-    { icon: '<i class="bx bxl-typescript fa-2x ms-2 me-3"></i>', name: 'TYPESCRIPT' },
-    { icon: '<i class="bx bxs-file-json fa-2x ms-2 me-3" ></i>', name: 'JSON & AJAX & AXIOS' },
-    { icon: '<i class="fa-brands fa-github fa-2x ms-2 me-3"></i>', name: 'GIT & GITHUB' },
-    { icon: '<i class="fa-brands fa-react fa-2x ms-2 me-3"></i>', name: 'REACT JS' },
+    { icon: '<i class="fa-brands fa-html5 fa-bounce fa-2x ms-2 me-3 html"></i>', name: 'HTML' },
+    { icon: '<i class="fa-brands fa-css3-alt fa-beat fa-2x ms-2 me-3 CSS"></i>', name: 'CSS' },
+    { icon: '<i class="fa-brands fa-square-js fa-flip fa-2x ms-2 me-3 JS"></i>', name: 'JAVASCRIPT' },
+    { icon: '<i class="fa-brands fa-bootstrap fa-spin fa-2x ms-2 me-3 Boot"></i>', name: 'BOOTSTRAP' },
+    { icon: '<i class="bx bxl-jquery bx-burst fa-2x ms-2 me-3 JQUERY"></i>', name: 'JQUERY' },
+    { icon: '<i class="fa-brands fa-sass fa-shake fa-2x ms-2 me-3 SASS"></i>', name: 'SASS' },
+    { icon: '<i class="bx bxl-typescript bx-fade-down fa-2x ms-2 me-3 TYPESCRIPT"></i>', name: 'TYPESCRIPT' },
+    { icon: '<i class="bx bxs-file-json bx-tada fa-2x ms-2 me-3 JSON" ></i>', name: 'JSON & AJAX & AXIOS' },
+    { icon: '<img src="imgs/github.gif" alt="React" class="fa-2x ms-2 me-3 GITHUB">', name: 'GIT & GITHUB' },
+    { icon: '<img src="imgs/React.gif" alt="React" class="fa-2x ms-2 me-3 REACT">', name: 'REACT JS' },
     { icon: '<span class="Next fa-2x ms-2 me-3">NE</span>', name: 'NEXT JS' }
 ]
 let box = '';
@@ -141,3 +141,5 @@ for (let i = 0; i < projects.length; i++) {
     `;
 }
 document.getElementById('project').innerHTML = myProjects;
+
+AOS.init();
