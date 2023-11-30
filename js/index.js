@@ -66,6 +66,13 @@ let projects = [
         skills: ['React', 'Context', 'Fontawesome', 'HTML', 'CSS', 'JavaScript', 'Bootstrap','JSON & AJAX & AXIOS','React-Query','Formik','Yup']
     },
     {
+        name: 'Game REVIEWS',
+        image: 'imgs/Game.png',
+        githPage: 'https://game-reviews-website.vercel.app/',
+        code: 'https://github.com/Mohamed-AbdElGhaffar-AbdElGhaffar/Game-Website.git',
+        skills: ['HTML', 'CSS', 'JavaScript', 'Bootstrap','React', 'Context','JSON & AJAX & AXIOS','React-Query']
+    },
+    {
         name: 'Notes',
         image: 'imgs/notes.png',
         githPage: 'https://notes-app-one-puce.vercel.app/',
@@ -94,6 +101,13 @@ let projects = [
         skills: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Fontawesome','Fetch','JSON & AJAX & AXIOS','Async','await']
     },
     {
+        name: 'Bootstrab Portfolio',
+        image: 'imgs/Daniels.png',
+        githPage: 'https://mohamed-abdelghaffar-abdelghaffar.github.io/Bootstrap-Website/',
+        code: 'https://github.com/Mohamed-AbdElGhaffar-AbdElGhaffar/Bootstrap-Website.git',
+        skills: ['HTML', 'CSS', 'Bootstrap', 'Fontawesome']
+    },
+    {
         name: 'DevFolio',
         image: 'imgs/DevFolio.png',
         githPage: 'https://mohamed-abdelghaffar-abdelghaffar.github.io/DevFolio-Website/',
@@ -119,7 +133,7 @@ let projects = [
 let myProjects = '';
 for (let i = 0; i < projects.length; i++) {
     myProjects += `
-    <div class="col-lg-6">
+    <div class="col-lg-4 col-md-6">
     <div class="item">
         <div class="inner-box">
             <img src="${projects[i].image}" class="w-100" alt="${projects[i].name}">
